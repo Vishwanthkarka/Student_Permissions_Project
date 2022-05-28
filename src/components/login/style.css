@@ -1,0 +1,61 @@
+body{
+    padding:0;
+    margin: 0;
+
+}
+.shape_img{
+    position: absolute;
+    
+    height: 106%;
+    left:-30px;
+    top:-1rem;
+    z-index: -2;
+    
+}
+.row{
+    width: 100%;
+}
+
+.loginImg{
+    position: relative;
+    width:100%;
+    height: 100%;
+    float: left;
+    margin-top:3rem;
+    text-align: center;
+    left:-50px;
+    z-index: 8;
+}
+.hero{
+    display: flex;
+
+}
+
+.img_block{
+    width:50%;
+    height:100%;
+}
+
+.sign-form-login{
+    margin: 1rem 6rem auto 6rem;
+     background: white;
+     padding:70px;
+     border-radius: 8px;
+     width: 80%;
+     
+   
+   
+   
+   }
+   
+   @media only screen and (max-width: 900px) {
+
+    .media-left{
+        display: none;
+    }
+    .sign-form-login{
+        margin:20px 0 0 8px;
+        width:100%;
+    }
+  }
+  

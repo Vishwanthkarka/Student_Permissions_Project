@@ -1,0 +1,88 @@
+GET http://localhost:3000/user-api
+
+
+#####
+POST http://localhost:3000/user-api/create-user
+Content-Type: application/json
+
+{
+   "username":"hi",
+   "password":"hi",
+   "email":"hello@gmail.com",
+   "section":"CSM",
+   "isAdmin":"false"
+
+
+}
+
+#######
+POST http://localhost:3000/user-api/login
+Content-Type: application/json
+
+{
+   "username":"vishwa14",
+   "password":"vishwa",
+   "email":"hello@gmail.com",
+   "section":"CSM",
+   "isAdmin":"false"
+
+
+}
+
+
+#######
+
+DELETE  http://localhost:3000/user-api/remove-user/vishwa1234
+
+
+
+
+
+###############
+
+GET  http://localhost:3000/permission-api/get-all-students
+
+
+
+###########
+
+POST  http://localhost:3000/permission-api/post-permission
+Content-Type: application/json
+
+{
+   "username":"vishwa1234",
+   "date":"jun27",
+   "branch":"CSM",
+   "days":3,
+   "subject":"hackathon",
+   "isApproved":false
+
+
+
+}
+
+
+######
+GET http://localhost:3000/permission-api/post/vishwanath230
+
+
+
+###
+PUT http://localhost:3000/permission-api/permission-call
+Content-Type: application/json
+
+{
+   "_id":"626be46d7fab2b08b52929d9",
+   "uploadedOn":"1970-01-01T00:00:00.005Z",
+   "isapproved":true,
+   "isrejected":false,
+   "dateTo":"2022-04-18T00:00:00.000Z",
+   "dateFrom":"2022-04-13T00:00:00.000Z",
+   "subject":"testing",
+   "section":"ALML",
+   "letter":"hello"
+   }
+
+########
+
+DELETE http://localhost:3000/permission-api/request-delete/627a2303a2a0574bf79fa154

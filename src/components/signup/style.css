@@ -1,0 +1,79 @@
+
+body {
+
+} 
+
+.signup-head {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 870px;
+  background-image: url('https://www.colorhexa.com/6c63ff.png');
+  background-repeat: repeat-y;
+  background-size: 50% auto;
+
+}
+.sign-form{
+ margin:1.5rem;
+  background: white;
+  padding:40px;
+  border-radius: 8px;
+  width: 45%;
+  
+
+
+
+}
+
+.navbar-inner {
+  background-color:transparent;
+} 
+
+ .signup-button{
+  margin-top:15px;
+  background: #6C63FF;
+  color:white;
+  padding:1rem 10rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+} 
+
+
+.Form-button{
+  background: #6C63FF;
+  color: white;
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  padding:1rem;
+  border: none;
+
+
+}
+.Form-button:active,.Form-button:hover{
+  background:white ;
+  color:#6C63FF ;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .sign-form{
+width:80%;
+margin: 5.5rem 0.8rem;
+padding: 2rem;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sign-form{
+width:100%;
+margin: 5.9rem 0.8rem;
+padding: 2rem;
+
+  }
+}

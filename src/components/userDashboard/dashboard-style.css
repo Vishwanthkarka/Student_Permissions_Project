@@ -1,0 +1,12 @@
+.card{
+    flex-direction: row;
+}
+.card-main{
+border-color: white;
+box-shadow: rgb(84, 84, 84);
+margin:auto 3px;
+}
+.trash{
+    height:28px;
+    /* width: 20%; */
+}

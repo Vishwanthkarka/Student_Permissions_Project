@@ -1,38 +1,66 @@
-.App {
+/* HOME PAGE STYLING */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.welcome-Svg{
+ 
+  height:30rem;
+  margin-top: 3.5rem ;
+ text-align: center;
+ display: block;
+}
+.welcome-Svg-div{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.web-header{
+  color:#6C63FF
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #FFFF00;
+  color: #d62240;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.web-hero{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+}
+.hero-text{
+  font-family: 'Montserrat', sans-serif;
+  padding-top:150px;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 600px) {
+  .welcome-Svg{
+    height:20rem;
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/********* HeaderPAGE STYLING **********/
+
+.navbar {
+  z-index:5;
 }
+
+.bg-list-req{
+  background-color:#6c63ff2b ;
+}
+
+
+.bg-text-req{
+ color:#6d9df5 ;
+}
+/* #eaf0fb */
+
+.bg-info {
+  background-color:#eaf0fb!important;
+}
+.h{
+  margin: 0px;
+}
+
+
+/* // header */

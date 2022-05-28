@@ -1,0 +1,14 @@
+span{
+    color:#6C63FF;
+}
+.btn-login{
+    background-color: #6C63FF;
+    color:white;
+    border-radius: 8px;
+    padding: 0.3rem 2rem;
+    display:block;
+    margin:auto;
+    border: none;
+    outline: none;
+  }
+ 
